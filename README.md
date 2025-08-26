@@ -4,7 +4,7 @@
 <img width="1189" height="276" alt="Logo" src="https://github.com/user-attachments/assets/47b512d4-1c97-44fa-922c-ef9166ac824b" />
 
 Предварительное видео:
-https://github.com/user-attachments/assets/850365d7-770a-455b-aeaf-09d36f484430
+[Видео](https://github.com/user-attachments/assets/850365d7-770a-455b-aeaf-09d36f484430)
 
 (В видео есть пробелы во время проигрывания, но в реальной жизни таких пробелов нет.)
 
