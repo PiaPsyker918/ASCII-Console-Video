@@ -8,6 +8,11 @@ Video preview:
 
 (There are gaps in the video when the script is being performed, but there are no gaps in real life.)
 
+```
+In future updates, you will be able to play videos with sound and more.
+If you see a bug please text me.
+```
+
 # Translations
 
 -  Russian: [Russian](https://github.com/PiaPsyker918/ASCII-Console-Video/tree/russuan)
