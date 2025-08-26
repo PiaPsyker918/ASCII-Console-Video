@@ -1,18 +1,18 @@
 # ASCII-Console-Video
-This is a program that analyzes a video using Open-CV and displays it as ASCII art.
+Это программа, которая анализирует видео с помощью Open-CV и отображает его в формате ASCII.
 
 <img width="1189" height="276" alt="Logo" src="https://github.com/user-attachments/assets/47b512d4-1c97-44fa-922c-ef9166ac824b" />
 
-Video preview:
+Предварительное видео:
 https://github.com/user-attachments/assets/850365d7-770a-455b-aeaf-09d36f484430
 
-(There are gaps in the video when the script is being performed, but there are no gaps in real life.)
+(В видео есть пробелы во время проигрывания, но в реальной жизни таких пробелов нет.)
 
-# Translations
+# Перевод
 
--  Russian: 
+-  English: 
 
-# Requirements
+# Требования
 * argparse
 * os
 * subprocess
@@ -23,19 +23,19 @@ https://github.com/user-attachments/assets/850365d7-770a-455b-aeaf-09d36f484430
 * numpy
 * PIL
 
-# Installation
+# Установка
 
-1. Install the zip-file.
-2. Open CMD and write.
+1. Установите zip-файл.
+2. Откройте CMD и напишите.
 ```
 pip install requements.txt
 ```
-3. Download the .mp4 file.
-4. Next step in "How to use".
+3. Скачайте .mp4 файл.
+4. Следующие шаги в "Как использовать".
 
-# How to use
+# Как использовать
 
-In CMD write
+В CMD напишите
 Windows
 ```
 .\main.py -f video_file.mp4
@@ -45,34 +45,34 @@ Linux
 $ ./main.py -f video_file.mp4
 ```
 
-# Options
-```-f``` - Specify the name of the file with the .mp4 extension. IT MUST BE LOCATED IN THE SAME DIRECTORY AS THE SCRIPT.
+# Опции
+```-f``` - Укажите имя файла с расширением .mp4. ОН ДОЛЖЕН НАХОДИТЬСЯ В ТОМ ЖЕ КАТАЛОГЕ, ЧТО И СКРИПТ.
 
-```-c``` - If the video has color, the console will display a color ASCII video.
+```-c``` - Если видео цветное, консоль отобразит цветное видео в формате ASCII.
 
 <img width="1372" height="660" alt="Preview" src="https://github.com/user-attachments/assets/66305e3f-46eb-4221-badb-5872a500b19f" />
 
-# How it works
+# Как это работает
 
-Each frame is processed by Open-CV
+Каждый кадр обрабатывается с помощью Open-CV
 
 <img width="899" height="221" alt="VideoToASCII" src="https://github.com/user-attachments/assets/4f1a1005-1e9a-4297-8f50-f63d9b2e64fa" />
 
-Next get the terminal X and Y size,
-once we have the terminal size, we convert each frame into the same frame but in a lower resolution
+Затем получаем размер терминала X и Y,
+как только у нас будет размер терминала, мы преобразуем каждый кадр в тот же кадр, но с меньшим разрешением
 
 <img width="810" height="347" alt="Simpsons" src="https://github.com/user-attachments/assets/75e55a5e-c31d-48ca-b242-009240df34c1" />
 
-After conversion, we take the color of each pixel and convert it to ASCII based on the color intensity.
+После преобразования мы берем цвет каждого пикселя и преобразуем его в символ ASCII в зависимости от интенсивности цвета.
 
 ```chars = " .:-=+*#%@"```
 
-0-255 RGB to ASCII.
-And we get a ASCII frame
+0-255 RGB в ASCII.
+И мы получаем ASCII кадр.
 
 <img width="1094" height="716" alt="Frame" src="https://github.com/user-attachments/assets/dbe6e314-5691-4c81-bd3a-4b9872c548fa" />
 
-# Contacts
+# Контакты
 
 [<img width="100" height="100" alt="telegram-circle-icon-for-web-design-free-png" src="https://github.com/user-attachments/assets/1e4c0cb3-a856-417b-86d1-29354b2d92a8" />](https://t.me/Girlanda228)
 
