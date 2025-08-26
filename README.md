@@ -62,3 +62,16 @@ Next get the terminal X and Y size,
 once we have the terminal size, we convert each frame into the same frame but in a lower resolution
 
 <img width="810" height="347" alt="Simpsons" src="https://github.com/user-attachments/assets/75e55a5e-c31d-48ca-b242-009240df34c1" />
+
+After conversion, we take the color of each pixel and convert it to ASCII based on the color intensity.
+
+```chars = " .:-=+*#%@"```
+
+0-255 RGB to ASCII.
+And we get a ASCII frame
+
+<img width="1094" height="716" alt="Frame" src="https://github.com/user-attachments/assets/dbe6e314-5691-4c81-bd3a-4b9872c548fa" />
+
+# Creators
+
+@PiaPsyker918
