@@ -72,6 +72,7 @@ And we get a ASCII frame
 
 <img width="1094" height="716" alt="Frame" src="https://github.com/user-attachments/assets/dbe6e314-5691-4c81-bd3a-4b9872c548fa" />
 
-# Creators
+# Contacts
 
-@PiaPsyker918
+[<img width="100" height="100" alt="telegram-circle-icon-for-web-design-free-png" src="https://github.com/user-attachments/assets/1e4c0cb3-a856-417b-86d1-29354b2d92a8" />](https://t.me/Girlanda228)
+
