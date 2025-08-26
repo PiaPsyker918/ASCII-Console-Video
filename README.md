@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/850365d7-770a-455b-aeaf-09d36f484430
 
 # Translations
 
--  Russian: 
+-  Russian: [Russian](https://github.com/PiaPsyker918/ASCII-Console-Video/tree/main)
 
 # Requirements
 * argparse
