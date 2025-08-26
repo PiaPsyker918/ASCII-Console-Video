@@ -47,6 +47,18 @@ $ ./main.py -f video_file.mp4
 
 # Options
 ```-f``` - Specify the name of the file with the .mp4 extension. IT MUST BE LOCATED IN THE SAME DIRECTORY AS THE SCRIPT.
+
 ```-c``` - If the video has color, the console will display a color ASCII video.
 
-![Uploading Preview.png…]()
+<img width="1372" height="660" alt="Preview" src="https://github.com/user-attachments/assets/66305e3f-46eb-4221-badb-5872a500b19f" />
+
+# How it works
+
+Each frame is processed by Open-CV
+
+<img width="899" height="221" alt="VideoToASCII" src="https://github.com/user-attachments/assets/4f1a1005-1e9a-4297-8f50-f63d9b2e64fa" />
+
+Next get the terminal X and Y size,
+once we have the terminal size, we convert each frame into the same frame but in a lower resolution
+
+<img width="810" height="347" alt="Simpsons" src="https://github.com/user-attachments/assets/75e55a5e-c31d-48ca-b242-009240df34c1" />
