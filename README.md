@@ -24,10 +24,29 @@ https://github.com/user-attachments/assets/850365d7-770a-455b-aeaf-09d36f484430
 * PIL
 
 # Installation
+
+1. Install the zip-file.
+2. Open CMD and write.
 ```
-1. Install the zip-file
-2. Open CMD and write
 pip install requements.txt
-3. Download the .mp4 file
-4. Next step in "How to use"
 ```
+3. Download the .mp4 file.
+4. Next step in "How to use".
+
+# How to use
+
+In CMD write
+Windows
+```
+.\main.py -f video_file.mp4
+```
+Linux
+```
+$ ./main.py -f video_file.mp4
+```
+
+# Options
+```-f``` - Specify the name of the file with the .mp4 extension. IT MUST BE LOCATED IN THE SAME DIRECTORY AS THE SCRIPT.
+```-c``` - If the video has color, the console will display a color ASCII video.
+
+![Uploading Preview.png…]()
